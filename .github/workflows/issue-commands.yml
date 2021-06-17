@@ -21,5 +21,6 @@ jobs:
         uses: ./actions/commands
         with:
 #           token: "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" # "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"
-          token: ${{secrets.MYTOKEN}}
+#           token: ${{secrets.MYTOKEN}}
+          token: ${{secrets.VELA_BOT_TOKEN}}
           configPath: issue-commands
