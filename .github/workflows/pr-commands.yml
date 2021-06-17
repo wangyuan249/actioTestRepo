@@ -12,9 +12,13 @@ jobs:
       - name: Checkout Actions
         uses: actions/checkout@v2
         with:
-          repository: "wangyuan249/grafana-github-actions"
+          repository: "grafana/grafana-github-actions"
           path: ./actions
-          ref: master
+          ref: main
+#        with:
+#          repository: "wangyuan249/grafana-github-actions"
+#          path: ./actions
+#          ref: master
       - name: Install Actions
         run: npm install --production --prefix ./actions
       - name: Run Commands
