@@ -12,18 +12,14 @@ jobs:
       - name: Checkout Actions
         uses: actions/checkout@v2
         with:
-          repository: "grafana/grafana-github-actions"
+          repository: "wangyuan249/grafana-github-actions"
           path: ./actions
-          ref: main
-#        with:
-#          repository: "wangyuan249/grafana-github-actions"
-#          path: ./actions
-#          ref: master
+          ref: master
       - name: Install Actions
         run: npm install --production --prefix ./actions
       - name: Run Commands
         uses: ./actions/commands
         with:
-          token: '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'
+#          token: "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"
 #          token: ${{secrets.GH_BOT_ACCESS_TOKEN}}
           configPath: issue-commands

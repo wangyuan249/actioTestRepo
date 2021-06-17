@@ -23,6 +23,6 @@ jobs:
       - name: Run bump version
         uses: ./actions/bump-version
         with:
-          token: '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'
+          token: "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"
 #          token: ${{secrets.GH_BOT_ACCESS_TOKEN}}
 
