@@ -9,7 +9,7 @@
     "type": "author",
     "notMemberOf": { "org": "prometheus" },
     "action": "updateLabel",
-    "addLabel": "author/not-grafana"
+    "addLabel": "author/participant"
   },
   {
     "type": "label",
