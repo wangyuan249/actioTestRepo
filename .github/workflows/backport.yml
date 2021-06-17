@@ -20,7 +20,7 @@ jobs:
       - name: Run backport
         uses: ./actions/backport
         with:
-          token: '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'
+          token: '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'
 #          token: ${{secrets.GH_BOT_ACCESS_TOKEN}}
           labelsToAdd: "add to changelog, backport"
           title: "[Backport to {{base}}] {{originalTitle}}"
