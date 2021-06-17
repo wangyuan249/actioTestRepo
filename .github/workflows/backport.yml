@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Actions
         uses: actions/checkout@v2
         with:
-          repository: "grafana/grafana-github-actions"
+          repository: "wangyuan249/grafana-github-actions"
           path: ./actions
           ref: main
       - name: Install Actions
@@ -20,7 +20,8 @@ jobs:
       - name: Run backport
         uses: ./actions/backport
         with:
-          token: ${{secrets.GH_BOT_ACCESS_TOKEN}}
+          token: "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"
+#          token: ${{secrets.GH_BOT_ACCESS_TOKEN}}
           labelsToAdd: "add to changelog, backport"
           title: "[Backport to {{base}}] {{originalTitle}}"
 

@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Actions
         uses: actions/checkout@v2
         with:
-          repository: "grafana/grafana-github-actions"
+          repository: "wangyuan249/grafana-github-actions"
           path: ./actions
           ref: main
       - uses: actions/setup-node@v1
@@ -23,5 +23,6 @@ jobs:
       - name: Run bump version
         uses: ./actions/bump-version
         with:
-          token: ${{secrets.GH_BOT_ACCESS_TOKEN}}
+          token: "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"
+#          token: ${{secrets.GH_BOT_ACCESS_TOKEN}}
 
