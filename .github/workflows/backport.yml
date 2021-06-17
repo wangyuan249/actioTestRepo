@@ -14,7 +14,7 @@ jobs:
         with:
           repository: "wangyuan249/grafana-github-actions"
           path: ./actions
-          ref: master
+          ref: main
       - name: Install Actions
         run: npm install --production --prefix ./actions
       - name: Run backport
