@@ -35,12 +35,12 @@
     "type": "author",
     "memberOf": { "org": "grafana" },
     "action": "updateLabel",
-    "addLabel": "author/grafana"
+    "addLabel": "author/kubevela"
   },
   {
     "type": "author",
     "notMemberOf": { "org": "prometheus" },
     "action": "updateLabel",
-    "addLabel": "author/not-grafana"
+    "addLabel": "author/not-kubevela"
   }
 ]

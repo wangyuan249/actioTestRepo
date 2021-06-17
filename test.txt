@@ -1,2 +1,4 @@
 hello world
 wangzy add 616
+wangzy add merge
+wangzy add pr trigger
