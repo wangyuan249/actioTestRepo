@@ -13,6 +13,15 @@
   },
   {
     "type": "comment",
+    "name": "assign",
+    "action": "assign",
+    "assign": [ 
+	  "yangsoon"
+	  ],
+    "addLabel": "tryAddLabel"
+  },
+  {
+    "type": "comment",
     "name": "needsMoreInfo",
     "allowUsers": [
 	    "wangyuan249",
