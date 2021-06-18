@@ -1,13 +1,13 @@
 [
   {
     "type": "author",
-    "memberOf": { "org": "grafana" },
+    "memberOf": { "org": "oam-dev" },
     "action": "updateLabel",
     "addLabel": "author/kubevela"
   },
   {
     "type": "author",
-    "notMemberOf": { "org": "prometheus" },
+    "notMemberOf": { "org": "oam-dev" },
     "action": "updateLabel",
     "addLabel": "author/not-kubevela"
   },
