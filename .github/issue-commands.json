@@ -22,7 +22,7 @@
   {
     "type": "comment",
     "name": "duplicate",
-    "allowUsers": [],
+    "allowUsers": ["wangyuan249","myvelabot"],
     "action": "updateLabels",
     "addLabel": "type/duplicate"
   },
@@ -37,9 +37,9 @@
   {
     "type": "comment",
     "name": "needsMoreInfo",
-    "allowUsers": [],
+    "allowUsers": ["wangyuan249","myvelabot"],
     "action": "updateLabels",
-    "addLabel": "bot/needs more info"
+    "addLabel": "bot/moreinfo"
   },
   {
     "type": "label",
