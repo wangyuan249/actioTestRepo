@@ -18,7 +18,7 @@
 	    "wangyuan249",
 	    "yangsoon",
 	    "myvelabot",
-	    "wonderflow",
+	    "wonderflow"
     ],
     "action": "updateLabels",
     "addLabel": "needs more info"
@@ -30,7 +30,7 @@
 	    "wangyuan249",
 	    "yangsoon",
             "myvelabot",
-            "wonderflow",
+            "wonderflow"
     ],
     "addLabel": "needs more info",
     "comment": "Thanks for creating this issue regarding performance! Please follow this guide to help us diagnose performance issues: https://github.com/microsoft/vscode/wiki/Performance-Issues \n\nHappy Coding!"
@@ -57,7 +57,7 @@
 	    "wangyuan249",
 	    "yangsoon",
             "myvelabot",
-            "wonderflow",
+            "wonderflow"
     ],
     "action": "updateLabels",
     "addLabel": "type/duplicate"
