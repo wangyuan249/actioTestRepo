@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Actions
         uses: actions/checkout@v2
         with:
-          repository: "wangyuan249/grafana-github-actions"
+          repository: "wangyuan249/kubevela-github-actions"
           path: ./actions
           ref: main
       - name: Install Actions
