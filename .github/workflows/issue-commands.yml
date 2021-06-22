@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Actions
         uses: actions/checkout@v2
         with:
-          repository: "wangyuan249/grafana-github-actions"
+          repository: "wangyuan249/kubevela-github-actions"
           path: ./actions
           ref: main
       - name: Install Actions
@@ -20,7 +20,5 @@ jobs:
       - name: Run Commands
         uses: ./actions/commands
         with:
-#           token: "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" # "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"
-#           token: ${{secrets.MYTOKEN}}
           token: ${{secrets.VELA_BOT_TOKEN}}
           configPath: issue-commands
