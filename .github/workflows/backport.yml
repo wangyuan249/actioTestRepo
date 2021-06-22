@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Actions
         uses: actions/checkout@v2
         with:
-          repository: "wangyuan249/grafana-github-actions"
+          repository: "wangyuan249/kubevela-github-actions"
           path: ./actions
           ref: main
       - name: Install Actions
@@ -20,7 +20,6 @@ jobs:
       - name: Run backport
         uses: ./actions/backport
         with:
-#           token: "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"
           token: ${{secrets.VELA_BOT_TOKEN}}
           labelsToAdd: "add to changelog, backport"
           title: "[Backport to {{base}}] {{originalTitle}}"
