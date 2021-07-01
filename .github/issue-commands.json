@@ -1,15 +1,14 @@
-[
-  {
-    "type": "author",
-    "memberOf": { "org": "oam-dev" },
-    "action": "updateLabel",
-    "addLabel": "author/kubevela"
-  },
-  {
-    "type": "author",
-    "notMemberOf": { "org": "oam-dev" },
-    "action": "updateLabel",
-    "addLabel": "author/not-kubevela"
+[  {
+    "type": "comment",
+    "name": "type/enhancement",
+    "allowUsers": [
+	    "wangyuan249",
+	    "yangsoon",
+	    "myvelabot",
+	    "wonderflow"
+    ],
+    "action": "updateLabels",
+    "addLabel": "type/enhancement"
   },
   {
     "type": "comment",
