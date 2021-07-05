@@ -11,10 +11,9 @@
     "addLabel": "type/enhancement"
   },
   {
-    "type": "comment",
-    "name": "assign",
-    "action": "assign",
-    "assign": [],
+   "type": "comment",
+   "name": "assign",
+   "allowUsers": []
   },
   {
     "type": "comment",
