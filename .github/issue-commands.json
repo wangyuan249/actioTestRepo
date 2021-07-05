@@ -12,6 +12,12 @@
   },
   {
     "type": "comment",
+    "name": "assign",
+    "action": "assign",
+    "assign": [],
+  },
+  {
+    "type": "comment",
     "name": "needsMoreInfo",
     "allowUsers": [
 	    "wangyuan249",
