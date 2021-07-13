@@ -11,9 +11,9 @@
     "addLabel": "type/enhancement"
   },
   {
-   "type": "comment",
-   "name": "assign",
-   "allowUsers": []
+    "type": "comment",
+    "name": "assign",
+    "allowUsers": ["*"]
   },
   {
     "type": "comment",
